@@ -7,7 +7,7 @@ setInterval(cambiarSaludo, 2000);
   */
 
 function cambiarSaludo() {
-  let frase = document.getElementsByTagName("h2")[1].innerHTML;
+  let frase = document.getElementsByTagName("h2")[1];
 
   if ( document.getElementsByTagName("h2")[1].innerHTML == "Ganando como siempre") {
     document.getElementsByTagName("h2")[1].innerHTML = "Impongo moda para las niñas!";
