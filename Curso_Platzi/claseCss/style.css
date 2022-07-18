@@ -1,0 +1,17 @@
+
+        p{
+            color:blueviolet;
+            font-size: 80px;
+        }
+  /** clas */
+
+  .parrafo{
+    color: red;
+  }
+
+  /** ID Inicia con un numeral*/
+
+  #Otro {
+    color: plum;
+    font-size: 24px;
+  }

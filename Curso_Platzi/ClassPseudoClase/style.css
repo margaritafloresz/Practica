@@ -1,0 +1,31 @@
+.main-nav{
+    margin-top: 10px;
+    /*Para quitar el punto desosrdenado de la lista */
+    list-style:none;
+    padding-left: 0; /*Le agregamos un espacion interno*/
+    background-color: #13a4a4;
+}
+
+.main-nav_item{
+    display: inline-block; /*Para cambiar la posición de vertical a horizontal*/
+}
+
+.main-nav_item a {
+    color:white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+    background-color: red;
+}
+/*Pseudo clases se necesita pones puntos-algo*/
+.main-nav_item a:hover{ /*Para cambiar el color con el cursor del mause*/
+    color:blue;
+}
+.main-nav_item a:active{ /*Se cambia el color cuando se realiza la acción en este
+    caso el cursor*/
+    color:lightpink;
+}
+/*Pseudo elementos se necesita poner dos puntos-algo*/
+.main-nav_item a::after{  /*After para agregar cualquier contenido después de la clase*/
+    content: " | ";
+}
