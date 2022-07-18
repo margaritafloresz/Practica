@@ -3,13 +3,23 @@
     margin: 0;
 }
 h1 {
-    background-color: Black;
-    color: beige;
+    background-color: burlywood;
+    color: rgb(27, 27, 4);
     padding: 20px;
     text-align: center;
 
 }
 h2 {
+    background-size: cover;
     padding: 5px;
     text-align: center;
+} 
+
+h3{
+   padding: 10px;
+   text-align: center; 
 }
+
+
+
+
