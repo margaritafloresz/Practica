@@ -102,29 +102,179 @@
     background-color: white;
     border-radius: 1.5em; 
 }
-
+#Amigos_texto{
+    color:#E9636D;
+    font-size: 25px;
+    
+}
 #friendsto{
  background-color: white;
  border:1px solid #e3ac97;
  border-radius: 1.5em; 
+ height: 200px;
+ width: 400px;
+ margin-top: 40px;
 }
 #friendsto1{
     background-color: white;
     border:1px solid #e3ac97;
-    border-radius: 1.5em; 
+    border-radius: 1.5em;
+    width: 400px;
+    height: 315px;
+    margin-top: 80px;
+    
 }
 #friendsto2{
     background-color: white;
     border:1px solid #e3ac97;
-    border-radius: 1.5em;  
+    border-radius: 1.5em;
+    margin-top: 40px;
+
    }
 
 #Cuadro_Interes_Principal{
     background-color: white;
     border-radius: 1.5em;
     text-align: center;
-    height: 120px;
+    height: 160px;
 }
+
+#frien1{
+    background-color: white;
+    border-radius: 50%;
+}
+#frien_1{
+    background-color: white;
+    border-radius: 50%;
+    width: 90px;
+}
+#frien2{
+    background-color: white;
+    border-radius: 50%;
+}
+#frien_2{
+    background-color: white;
+    border-radius: 50%;
+    width: 90px;
+}
+#frien3{
+    background-color: white;
+    border-radius: 50%;
+}
+#frien_3{
+    background-color: white;
+    border-radius: 50%;
+    width: 90px;
+}
+#frien4{
+    background-color: white;
+    border-radius: 50%;
+}
+#frien_4{
+    background-color: white;
+    border-radius: 50%;
+    width: 90px;
+}
+#frien5{
+    background-color: white;
+    border-radius: 50%;
+}
+#frien_5{
+    background-color: white;
+    border-radius: 50%;
+    width: 90px;
+}
+#frien6{
+    background-color: white;
+    border-radius: 50%;
+}
+#frien_6{
+    background-color: white;
+    border-radius: 50%;
+    width: 90px;
+}
+#frien7{
+    background-color: white;
+    border-radius: 50%;
+}
+#frien_7{
+    background-color: white;
+    border-radius: 50%;
+    width: 90px;
+}
+#frien8{
+    background-color: white;
+    border-radius: 50%;
+}
+#frien_8{
+    background-color: white;
+    border-radius: 50%;
+    width: 90px;
+}
+
+/*
+CSS Wish List
+*/
+
+#Wish{
+    border-radius: 50%;
+   
+    
+}
+
+
+#Place1{
+    width:110px;
+    background-color: white;
+  
+   
+}
+#Place2{
+    width:110px;
+    background-color: white;
+ 
+   
+}
+#Place3{
+    width:110px;
+    background-color: white;
+ 
+   
+}
+#Place4{
+    width:110px;
+    background-color: white;
+ 
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*DE AYER*/
 /* #friends1{
