@@ -73,29 +73,7 @@
     border: 1px solid #e3ac97;
 
 }
-#Principal{
-    border-radius: 1.5rem;
-    margin:0 0 0 0;
-}
-#Cuadro1{
-    background-color:white;
-    margin: 0 0 0 0;
-    text-align: center;
-}
-#Cuadro2{
-    background-color: white;
-    text-align: center;
-}
-#Cuadro3{
-    background-color: white;
-    margin: 0 0 0 0;
-    text-align: center;
-}
-#Cuadro4{
-    background-color: white;
-    margin:0 0 0 0;
-    text-align: center;
-}
+
 /*CSS CONTENIDO PRINCIPAL*/
 
 .Contenido_Principal{
@@ -111,9 +89,13 @@
  background-color: white;
  border:1px solid #e3ac97;
  border-radius: 1.5em; 
- height: 200px;
+ height: 250px;
  width: 400px;
  margin-top: 40px;
+}
+
+#Fila_Amigos1{
+    background-color: #e3ac97;
 }
 #friendsto1{
     background-color: white;
@@ -122,13 +104,30 @@
     width: 400px;
     height: 315px;
     margin-top: 80px;
+    padding: 0px;
     
 }
 #friendsto2{
     background-color: white;
     border:1px solid #e3ac97;
     border-radius: 1.5em;
-    margin-top: 40px;
+    margin: 40px 0 0 10px;
+
+   }
+#Columna_Imagenes{
+    background-color: #E9636D;
+    width: 360px;
+    height: 260px;
+    margin: 0 10px 0 0;
+}
+   #friendsto3{
+    background-color: white;
+    border:1px solid #e3ac97;
+    border-radius: 1.5em;
+    width: 830px;
+    margin: 40px 0 0 50px;
+    height: 644px;
+   
 
    }
 
@@ -218,7 +217,6 @@ CSS Wish List
 
 #Wish{
     border-radius: 50%;
-   
     
 }
 

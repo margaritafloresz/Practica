@@ -1,0 +1,76 @@
+ *{
+    box-sizing: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Soleil', sans-serif;
+ 
+    }
+body{
+    background-color: red;
+}
+     
+
+ .container-bg{
+    background:red;
+}
+ #Paisaje_Principal{
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+}
+#hea{
+    background-color: #4BCEEB;   
+}
+.iconify{
+    width: 75%;
+    height: 60px;
+
+} 
+
+#botton{ 
+    background-color: #4BCEEB; 
+    color: #E9636D;
+    font-family: 'Soleil', sans-serif;  
+} 
+
+#trip{
+    text-decoration: solid;
+} 
+#img{
+    width: 355px;
+    height: 100px;
+} 
+
+ #Profile_users{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 60%; 
+    margin-bottom: 100px;  
+ } 
+
+ #perfil{
+    background-color:rgba(219,26,26);
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgba(131,21,21,0.5) 25px, rgba(131,21,21,0.5)40px);
+ 
+}
+
+#ribbon::after{
+    content: '';
+    background-color: transparent;
+    display: block;
+    height: 20px;
+    width: 50%;
+    margin: 9 auto;
+    position: relative;
+    left: auto;
+    margin-top: -40px
+} 
+
+#birthday{
+    background-color:#4BCEEB;
+    position:relative;
+    margin-top: -20px;
+    z-index: 10;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 1.5em;
+} 
