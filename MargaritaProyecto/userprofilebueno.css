@@ -1,0 +1,106 @@
+*{
+    box-sizing: none;
+    margin: 0;
+    padding: 0;
+    background-color: #D8D8D8;
+    font-family: 'Soleil', sans-serif;
+}
+/*CSS NAVBAR*/
+#Paisaje_Principal{
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+}
+.iconify{
+    width: 75%;
+    height: 60px;
+    background-color: #4BCEEB; 
+} 
+
+#botton{ 
+    background-color: #4BCEEB; 
+    color: #E9636D;
+    font-family: 'Soleil', sans-serif;  
+} 
+
+#trip{
+    text-decoration: solid;
+    background-color: #4BCEEB; 
+} 
+/*CSS IMAGEN DE FONDO*/
+#img{
+    width: 355px;
+    height: 100px;
+    background-color: #4BCEEB;   
+} 
+/*CSS IMAGEN DE USUARIO*/
+#img_secundaria{
+   /* display:flexbox; */
+   margin:0px auto;
+   border-radius: 50%;
+   position:absolute;
+   right: 100px;
+   left: 130px;
+   top: 310px;  
+}
+
+.grid div:hover{
+    border: 1px solid #e3ac97;
+
+}
+
+/*CSS CONTENIDO PRINCIPAL*/
+
+#Cuadro_Amigos{
+ background-color: white;
+ border:1px solid #e3ac97;
+ border-radius: 1.5em; 
+ height: 250px;
+ width: 400px;
+ margin-top: 40px;
+}
+
+
+#friendsto1{
+    background-color: white;
+    border:1px solid #e3ac97;
+    border-radius: 1.5em;
+    width: 400px;
+    height: 315px;
+    margin-top: 80px;
+    padding: 0px;
+    
+}
+#Presentate{
+    background-color: white;
+    border:1px solid #e3ac97;
+    border-radius: 1.5em;
+    margin: 40px 0 0 10px;
+
+   }
+
+   #collage{
+    background-color: white;
+    border:1px solid #e3ac97;
+    border-radius: 1.5em;
+    width: 800px;
+    margin: 40px 0 0 50px;
+    height: 644px;
+
+   }
+
+#Cuadro_Interes_Principal{
+    background-color: white;
+    border-radius: 1.5em;
+    text-align: center;
+    height: 160px;
+}
+
+/*
+CSS Wish List
+*/
+
+.Wish{
+    border-radius: 50%;  
+}
+

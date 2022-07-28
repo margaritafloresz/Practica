@@ -1,30 +1,24 @@
  *{
     box-sizing: none;
-    margin: 0;
     padding: 0;
     font-family: 'Soleil', sans-serif;
- 
-    }
-body{
-    background-color: red;
-}
-     
+    background-color:#D8D8D8;
+  }
 
- .container-bg{
-    background:red;
-}
+
  #Paisaje_Principal{
     object-fit: cover;
     height: 300px;
     width: 100%;
 }
 #hea{
-    background-color: #4BCEEB;   
+    background-color: #4BCEEB; 
+    
 }
 .iconify{
     width: 75%;
     height: 60px;
-
+    background-color: #4BCEEB; 
 } 
 
 #botton{ 
@@ -35,42 +29,45 @@ body{
 
 #trip{
     text-decoration: solid;
+    background-color: #4BCEEB; 
 } 
 #img{
     width: 355px;
     height: 100px;
+    background-color: #4BCEEB; 
+  
 } 
-
- #Profile_users{
+ #img_secundaria{
+    display:block;
+    margin:0px auto;
     border-radius: 50%;
-    object-fit: cover;
-    width: 60%; 
-    margin-bottom: 100px;  
- } 
-
- #perfil{
-    background-color:rgba(219,26,26);
-    background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgba(131,21,21,0.5) 25px, rgba(131,21,21,0.5)40px);
- 
-}
-
-#ribbon::after{
-    content: '';
+    position:absolute;
+    right: 100px;
+    left: 130px;
+    top: 310px;
     background-color: transparent;
-    display: block;
-    height: 20px;
-    width: 50%;
-    margin: 9 auto;
-    position: relative;
-    left: auto;
-    margin-top: -40px
-} 
+   
+ }
 
-#birthday{
-    background-color:#4BCEEB;
-    position:relative;
-    margin-top: -20px;
-    z-index: 10;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+#friendsto{
+    background-color: white;
+    border:1px solid #e3ac97;
+    border-radius: 1.5em; 
+    height: 250px;
+    width: 4200px;
+    margin-top: 40px;
+   }
+
+   #friendsto2{
+    background-color: white;
+    border:1px solid #e3ac97;
     border-radius: 1.5em;
-} 
+    margin: 80px 0 0 10px;
+
+   }
+#Cuadro_Interes_Principal{
+    background-color: white;
+    border-radius: 1.5em;
+    text-align: center;
+    height: 160px;
+}
