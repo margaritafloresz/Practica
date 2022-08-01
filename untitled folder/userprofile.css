@@ -5,11 +5,6 @@
     background-color: #D8D8D8;
     font-family: 'Soleil', sans-serif;
 }
-
-#img{
-    height: 100px;
-    width: 350x;
-}
 /*CSS NAVBAR*/
 #Paisaje_Principal{
     object-fit: cover;
@@ -17,14 +12,11 @@
     width: 100%;
 }
 .iconify{
-    width: 15vw;
+    width: 75%;
     height: 60px;
     background-color: #4BCEEB; 
 } 
 
-.iconos{
-    background-color: #4BCEEB;
-}
 #botton{ 
     background-color: #4BCEEB; 
     color: #E9636D;
@@ -43,11 +35,12 @@
 } 
 /*CSS IMAGEN DE USUARIO*/
 #img_secundaria{
+   /* display:flexbox; */
    margin:0px auto;
    border-radius: 50%;
    position:absolute;
-   right: 120px;
-   left: 80px;
+   right: 100px;
+   left: 130px;
    top: 310px;  
 }
 
@@ -61,26 +54,28 @@
 #Cuadro_Amigos{
  background-color: white;
  border:1px solid #e3ac97;
- border-radius: 1.5rem; 
- width: 360px;
-
+ border-radius: 1.5em; 
+ height: 250px;
+ width: 400px;
+ margin-top: 40px;
 }
 
 
 #friendsto1{
     background-color: white;
     border:1px solid #e3ac97;
-    border-radius: 1.5rem;
-    width: 360px;
+    border-radius: 1.5em;
+    width: 400px;
     height: 315px;
-   
+    margin-top: 80px;
+    padding: 0px;
     
 }
 #Presentate{
     background-color: white;
     border:1px solid #e3ac97;
     border-radius: 1.5em;
-    margin-top: 40px;
+    margin: 40px 0 0 10px;
 
    }
 
@@ -89,54 +84,23 @@
     border:1px solid #e3ac97;
     border-radius: 1.5em;
     width: 800px;
-    height: 550px;
+    margin: 40px 0 0 50px;
+    height: 644px;
+
    }
 
 #Cuadro_Interes_Principal{
     background-color: white;
     border-radius: 1.5em;
     text-align: center;
-    height: 180px;
-   
+    height: 160px;
 }
 
 /*
 CSS Wish List
 */
 
- .Wish{
+.Wish{
     border-radius: 50%;  
-    text-align: center;
-}
-
-.text{
-    font-size: 1.vw;
-}
-#iconos_collage{
-    background-color: white;
-    color:#44BAA0;
-}
-
-#Columna_Imagenes{
-    background-color: #E9636D;   
-}
-
-#Place1{
-    border-radius: 1.5rem;
-
-}
-#Place2{
-    border-radius: 1.5rem;
-
-}
-
-#friends{ 
-        width: 5vw;
-        height: 10vw;
-        background-size: cover;
-        border-radius: 50%;
-        margin: 0px auto;
-        display:block;  
-        background-color: white; 
 }
 
