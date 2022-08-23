@@ -55,10 +55,10 @@
    top: 310px;  
 }
 
-.grid div:hover{
+/* .grid div:hover{
     border: 1px solid #e3ac97;
 
-}
+} */
 
 /*CSS CONTENIDO PRINCIPAL*/
 
@@ -66,7 +66,8 @@
  background-color: white;
  border:1px solid #e3ac97;
  border-radius: 1.5rem; 
- width: 360px;
+ width: 30rem;
+ height: 20rem;
 
 }
 
@@ -77,8 +78,8 @@
     background-color: white;
     border:1px solid #e3ac97;
     border-radius: 1.5rem;
-    width: 360px;
-    height: 315px;
+    width: 30rem;
+    height: 20rem;
    
     
 }
@@ -137,12 +138,11 @@ CSS Wish List
 }
 
 #friends{ 
-        width: 5vw;
-        height: 5vw;
-        background-size: cover;
+        /* width: 5vw; */
+        height: 7vw;      
         border-radius: 50%;
         margin: 0px auto;
         display:block;  
-        background-color: white; 
+       
 }
 
