@@ -11,5 +11,5 @@ main{
     width: 100%; /*Que tan largo*/
     height: 500px; /*Qué tan algi*/
     border: 10px solid grey;
-    padding: 20px 35px; /*Parte de arriba-abajo y derecha-izquierda*/
+     padding: 20px 35px; /*Parte de arriba-abajo y derecha-izquierda */
 }
